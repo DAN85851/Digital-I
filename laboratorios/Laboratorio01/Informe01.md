@@ -107,9 +107,31 @@ La disipación de potencia es un parámetro crucial para entender la eficiencia 
   
 
 ### Circuito Implementado
-
-Para este caso el circuito implementado fue:
+Para esta práctica el circuito implementado fue el siguiente:
 <img src="/laboratorios/Laboratorio01/Imagenes/Circuito Utilizado.png" alt="VIH TTL" width="50%">
+Para el caso del CMOS, basta con cambiar la compuerta, el resto del montaje permanece igual.
+Este circuito es un negador, el cual posee una señal cuadrada como entrada, está constituido por dos LEDS que permiten apreciar de una manera más visual el comportamiento de dicho circuito, y las resistencias utilizadas se escogieron con el fin de evitar pérdidas en la amplitud de la señal de salida.
+
+Las simulaciones para esta sección fueron las siguientes:
+<img src="/laboratorios/Laboratorio01/Imagenes/Entrada y Salida Circuito.png" alt="VIH TTL" width="50%">
+<img src="/laboratorios/Laboratorio01/Imagenes/Entrada y Salida Circuito CMOS.png" alt="VIH TTL" width="50%">
+Note que cuando la entrada es un "1" lógico, la salida corresponde con un  "0" lógico y viceversa.
+
+Adicionalmente, se simularon los tiempos de subida y bajada para cada circuito, obteniendo que:
+
+##Tiempo de Bajada y Subida TTL
+<img src="/laboratorios/Laboratorio01/Imagenes/Tiempo de Subida.png" alt="VIH TTL" width="50%">
+El tiempo de subida corresponde con 795fs.
+<img src="/laboratorios/Laboratorio01/Imagenes/Tiempo de Bajada.png" alt="VIH TTL" width="50%">
+El tiempo de bajada corresponde con 733fs.
+
+
+## Tiempo de Bajada y Subida CMOS
+<img src="/laboratorios/Laboratorio01/Imagenes/Tiempo de Subida CMOS.png" alt="VIH TTL" width="50%">
+El tiempo de subida corresponde con 568fs.
+<img src="/laboratorios/Laboratorio01/Imagenes/Tiempo de Bajada CMOS.png" alt="VIH TTL" width="50%">
+El tiempo de bajada corresponde con 923fs.
+---
 
 
 ## Análisis de Parámetros de las Puertas Lógicas CMOS y TTL
