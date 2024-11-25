@@ -97,7 +97,8 @@ La disipación de potencia es un parámetro crucial para entender la eficiencia 
 
 ### Circuito Implementado
 
-Para este caso el circuito implementado fue el siguiente
+Para este caso el circuito implementado fue el siguiente:
+<img src="/laboratorios/Laboratorio01/Imagenes/Circuito Utilizado.png" alt="VIH TTL" width="50%">
 
 ---
 
