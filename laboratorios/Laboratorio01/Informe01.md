@@ -106,7 +106,10 @@ La disipación de potencia es un parámetro crucial para entender la eficiencia 
 - **CMOS (CD4069)**: Disipación de potencia de 0.2 mW a 10 mW, dependiendo de la frecuencia de operación.
   
 
+### Circuito Implementado
 
+Para este caso el circuito implementado fue:
+<img src="/laboratorios/Laboratorio01/Imagenes/Circuito Utilizado.png" alt="VIH TTL" width="50%">
 
 
 ## Análisis de Parámetros de las Puertas Lógicas CMOS y TTL
