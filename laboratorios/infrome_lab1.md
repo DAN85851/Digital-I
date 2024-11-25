@@ -95,6 +95,10 @@ La disipación de potencia es un parámetro crucial para entender la eficiencia 
 - **TTL (74LS04)**: Disipación de potencia entre 1 mW y 20 mW por compuerta.
 - **CMOS (CD4069)**: Disipación de potencia de 0.2 mW a 10 mW, dependiendo de la frecuencia de operación.
 
+### Circuito Implementado
+
+Para este caso el circuito implementado fue el siguiente
+
 ---
 
 ## Conclusiones
