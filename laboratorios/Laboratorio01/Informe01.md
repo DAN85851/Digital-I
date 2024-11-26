@@ -229,14 +229,19 @@ Su funcionamiento basico consiste en que al conectar la entrada de la primera co
 #### Oscilador en anillo con 3 compuertas NOT
 
   <img src="/laboratorios/Laboratorio01/Imagenes/Anillo-3.JPG" alt="VIH CMOS" width="50%">
-   <img src="/laboratorios/Laboratorio01/Imagenes/Vout-Anillo-3.JPG" alt="VIH CMOS" width="50%">
+   <img src="/laboratorios/Laboratorio01/Imagenes/Simulación_3_Anillos.JPG" alt="VIH CMOS" width="50%">
      <img src="/laboratorios/Laboratorio01/Imagenes/Anillo-3-LAB.jpg" alt="VIH CMOS" width="50%">
      
 #### Oscilador en anillo con 5 compuertas NOT
 
  <img src="/laboratorios/Laboratorio01/Imagenes/Anillo-5.JPG" alt="VIH CMOS" width="50%">
-   <img src="/laboratorios/Laboratorio01/Imagenes/Vout-Anillo-5.JPG" alt="VIH CMOS" width="50%">
+   <img src="/laboratorios/Laboratorio01/Imagenes/Simulación_5_Anillos.JPG" alt="VIH CMOS" width="50%">
      <img src="/laboratorios/Laboratorio01/Imagenes/Anillo-5-LAB.jpg" alt="VIH CMOS" width="50%">
+
+#### Análisis Oscilador 
+Comparando las frecuencias y formas de onda entre las simulaciónes y las mediciones del laboratorio, se encuentra que para la forma de onda, los osciladores simulados presentan una onda cuadrada casi perfecta, mientras que los osciladores del laboratorio presentan una señal bastante deformada, esto debido a los capacitancias parasitas presentes en las compuertas, donde debido al tiempo de carga de estas capacitancias se presenta un comportamiento no lineal.
+
+En lo que respecta a la frecuencia, esta presento una menor magitud en las simulaciónes que en los circuitos fisico, este fenomeno tiene como posible causa se tiene que las condiciones del simulador estarian limitando la rapidez del circuito posiblemente por  valores más altos de resistencias internas o capacitancias parásitas que añade el simulador.
   
   
 
@@ -261,6 +266,9 @@ Su funcionamiento basico consiste en que al conectar la entrada de la primera co
 
 4. **Impacto de la Carga**:
    - Las diferencias observadas en los tiempos de transición y niveles de salida están relacionadas con la carga capacitiva y las condiciones de prueba.
+5. **Osiladores en Anillo**
+   - Las diferencias entre los anillos simulados y los implementados en el laboratorio radican en la configuración de la simulación para asegurar la linealidad del circuito y la inclusión de factores como resistencias internas y capacitancias parasitas elevadas, mientras que en la realidad estas capacitancias y resistencias no son tan elevadas, pero su efecto se hace evidente en la forma de onda de la salida. 
+   
 
 ---
 
