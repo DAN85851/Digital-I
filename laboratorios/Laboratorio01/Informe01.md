@@ -113,9 +113,9 @@ Para el caso del CMOS, basta con cambiar la compuerta, el resto del montaje perm
 Este circuito es un negador, el cual posee una señal cuadrada como entrada, está constituido por dos LEDS que permiten apreciar de una manera más visual el comportamiento de dicho circuito, y las resistencias utilizadas se escogieron con el fin de evitar pérdidas en la amplitud de la señal de salida.
 
 Las simulaciones para esta sección fueron las siguientes:
- <img src="/laboratorios/Laboratorio01/Imagenes/Entrada%20y%20Salida%20Circuito.png" alt="VIH CMOS" width="50%">
-<img src="/laboratorios/Laboratorio01/Imagenes/Entrada%20y%20Salida%20Circuito.png" alt="VIH TTL" width="50%">
-<img src="/laboratorios/Laboratorio01/Imagenes/Entrada%20y%20Salida%20Circuito%20CMOS.png" alt="VIH TTL" width="50%">
+ <img src="/laboratorios/Laboratorio01/Imagenes/Entrada%20y%20Salida%20Circuito.jpg" alt="VIH CMOS" width="50%">
+<img src="/laboratorios/Laboratorio01/Imagenes/Entrada%20y%20Salida%20Circuito.jpg" alt="VIH TTL" width="50%">
+<img src="/laboratorios/Laboratorio01/Imagenes/Entrada%20y%20Salida%20Circuito%20CMOS.jpg" alt="VIH TTL" width="50%">
 Note que cuando la entrada es un "1" lógico, la salida corresponde con un  "0" lógico y viceversa.
 
 Adicionalmente, se simularon los tiempos de subida y bajada para cada circuito, obteniendo que:
