@@ -126,9 +126,13 @@ Note que cuando la entrada es un "1" lógico, la salida corresponde con un  "0" 
 Adicionalmente, se simularon los tiempos de subida y bajada para cada circuito, obteniendo que:
 
 ##Tiempo de Bajada y Subida TTL
+
 <img src="/laboratorios/Laboratorio01/Imagenes/Tiempo%20de%20Subida.jpg" alt="VIH TTL" width="50%">
+
 El tiempo de subida corresponde con 795fs.
+
 <img src="/laboratorios/Laboratorio01/Imagenes/Tiempo%20de%20Bajada.jpg" alt="VIH TTL" width="50%">
+
 El tiempo de bajada corresponde con 733fs.
 
 
